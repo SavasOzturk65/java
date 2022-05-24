@@ -6,7 +6,9 @@ public class Personel {
     protected boolean calisiyorMu;
     protected String telNo;
     protected int yas;
-
+Personel(){
+    System.out.println("Personel  parametresiz constructor calisti");
+}
 
     // eger variable'lara access modifier yazmazsak
     // Java access modifier olarak default acc.mod. atar

@@ -5,6 +5,9 @@ public class Muhasebe extends Personel {
     protected int saatUcreti;
     protected String statü;
     protected int maas;
+     public Muhasebe (){
+        System.out.println("Memur parametresiz constructor calisti");
+    }
 
     public static void main(String[] args) {
 
